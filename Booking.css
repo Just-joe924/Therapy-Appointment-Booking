@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #494d5f;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: #d0bdf4;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.nav-bar:hover{
+    background-color: #bfa2e0;
+    transition: 0.3s;
+}
+.nav-bar #logo{
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px; 
+    color: #494d5f;     
+}
+.nav-bar #logo:hover{
+    color: #fff;
+    transition: 0.3s;
+    background: none;
+    padding: 0%;
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li{
+    font-family: "Pompiere", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;  
+    margin: 0 3rem;
+    color: #494d5f;
+    border-radius: 20px;
+    padding: 9px 9px 9px 9px;
+}
+.nav-bar ul li:active{
+    color: #fff;
+    border-radius: 20px;
+    padding: 9px 9px 9px 9px;
+
+}
+.nav-bar a:hover{
+    background: #8188a6;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding: 9px 9px 9px 9px;
+}
+.nav-bar a.active{
+    background: #494d5f;
+    color: #fff;
+    border-radius: 20px;
+    padding: 9px 9px 9px 9px;
+}
+main{
+    flex-grow: 1;
+    min-height: 100vh;
+    width: calc(100%);
+    background-image:  linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("../images/lucas-calloch-P-yzuyWFEIk-unsplash.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    color: #494d5f;
+}
+main .Login-card-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main .Login{
+    text-align: center;
+    font-family: "Pompiere", sans-serif;
+    padding-left: 150px;
+    padding-top: 80px;
+    background-color: #d0bdf4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    max-width: 400px;
+}
+main .Login p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight:600;
+}
+main .Login button{
+    border-radius: 12px;
+    padding: 14px 12px 12px 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+     color: white;
+    background-color: #494d5f;
+}
+main .Login button:hover{
+    background-color: #494d5f;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 15px 13px 13px 15px;
+}
+main .Login h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+main .Login #login-email{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+main .Login #login-pwd{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+main .Login #Continue{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .Login #loginbtn{
+    padding: 14px 12px 12px 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    color: white;
+    background-color: #494d5f;
+}
+.wrapper .Login #loginbtn:active{
+    padding: 14px 12px 12px 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    color: white;
+    background-color: #696f8a;
+}
+.wrapper .Login #signUp-link{
+    display: inline;
+    color: #494d5f;
+}
+.wrapper .Login a{
+    color: #494d5f;
+}
+footer{
+    width: auto;
+    height: 100px;
+    background-color: #bfa2e0;
+    color: #fff;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+footer .Socials a{
+    display: inline;
+    width: 40px;
+    background:  #bfa2e0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 40px;
+}

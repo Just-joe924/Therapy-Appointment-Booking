@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./SignUp.css">
+    <script src="https://kit.fontawesome.com/317050764a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pompiere&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a id="logo" href="./Home.html">Inki-J</a>
+
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contact us.html">Contact us</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a class="active" href="./Booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+        <div class="wrapper">
+            <div class="signUp-card-form">
+                <form class="signUp">  
+                    <h2>Create your free account</h2>
+                    <p>No credit card required. Upgrade anytime.</p>
+                    <input type="text" id="name" placeholder="Name*">
+                    <input id="email" placeholder="Email*" type="email"><br>
+                    <input id="pwd" placeholder="Password*" type="password"><br>
+                    <input type="submit" onclick="signUp(event)" value="Sign Up" class="sgnbtn" id="sgnbtn">
+                    <p>OR</p>
+                    <p id="Continue">Continue with</p><i class="fab fa-google"></i> <i class="fab fa-microsoft"></i><br>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="">Disclaimer</a>
+            <a href="">Conditions of Access</a>
+            <a href="">Privacy and security statement</a>
+        </div>
+        <p>Copyright © 2025 Inki-J. All rights reserved.</p>
+        <div class="Socials">
+            <a href="https://www.instagram.com/theemmanueljohnson/"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Just-joe924"><i class="fab fa-github"></i></a>
+            <a href="mailto:theemmanueljohnson@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./Booking.js"></script>
+</body>
+</html>

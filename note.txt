@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <!-- <button ondblclick="Dp()">click me</button>
+
+   <button onclick="stop()">stop interval</button>
+
+    <input type="text" onkeypress="handleclick()">
+
+    <input id="info1" type="text" onchange="handleClick()">
+    <img src="" id="info2" alt="">
+    <a href="" id="info3" ></a>
+
+    <input type="text" name="fname">
+    <input type="text"> -->
+    <div id="parent">
+        <img src="" alt="">
+        <p id="test">hello</p>
+    </div>
+
+    <div id="second">
+        <button>inside second div</button>
+    </div>
+
+    <button id="btn">change color</button>
+
+    <script src="./script.js"></script>
+    <script src="./calculator.js"></script>
+</body>
+</html>
+// var  x = 2
+// var y = 3
+// var z = x + y
+
+// alert(z)
+
+// console.log(z)
+
+
+// const a = 15;
+// const b = 13;
+// const c = 12;
+// const d = a + b + c;
+
+// var d = c * a + b; 6 * 2 + 5;
+// var d = c == 2 || b == 4 // 1 + 0
+// var d = c != a;
+
+// var e = a === b;
+
+// var e = null
+
+
+// console.log ( typeof(f))
+
+// console.log("world"+ "hello")
+
+// var form1 = {
+//     firstname: "Emmanuel",
+//     lastname: "Johnson",
+//     email: "a@b.com",
+//     age: 18,
+// }
+
+// var form2 = {
+//     firstname: "Daniel",
+//     lastname: "Johnson",
+//     email: "b@b.com",
+//     age: 24,
+// }
+
+// //console.log(form2)
+
+
+//     firstname: "Chidera",
+// var form3 = {
+//     lastname: "Okonkwo",
+//     middlename: "Daniel",
+// }
+
+// console.log(form3)
+
+// var a = Math.floor(Math.random() * 8)
+// var a = Math.max(23,45,2,3)
+// var a = Math.min(23,45,2,3)
+// var a = [1,2,3, "hello", "world"]
+
+// a[3] = "prince"
+// var a = [ 6, "kenneth", "kenzie", "tofu", 5, "test"]
+
+// var users = [
+//     {name: "joe", skin: "ebony"},
+//     {name: "nifemi", skin: "white"},
+//     {name: "caleb" , skin: "black"},
+// ]
+
+
+// console.log(users[2].skin)
+
+
+// var b = [1,2,3,4,5]
+
+// var c = b.length
+// console.log(c)
+// b.pop()
+// b.push(7889)
+// b.unshift("name")
+// b.shift()
+// console.log(b.join("+"))
+// console.log(b.slice(0,3))
+// console.log(b.splice(0,3))
+
+// for(var a = 3; a < 20; a+=2){
+//     console.log(a)
+// }
+
+// var a = 2;
+// a++
+// console.log(a)
+// var i = 3;
+// while(i < 20){
+//     console.log(i)
+//     i+=2
+// }
+
+// var cars = ['toyota', 'mazda', 'kia', 'ford']
+// for(var i = 0; i < cars.length; i++){
+//     console.log(cars[i])
+// }
+
+// var food = ['rice', 23, "prince"]
+// for(var b = 0; b < food.length; b++){
+//     console.log(food[b])
+// }
+
+// var person = {
+//     name: "John",
+//     age: 50
+// }
+// console.log(person.name + ' is ' + person.age)
+
+// const fruits = ['bannana', 'mango', 'cashew']
+// for(var i = 0; i < fruit.length; i++){
+//     console.log(fruits[i])
+// }
+// for(x in fruits){
+//     console.log(fruits(x))
+// }
+
+// >=75 Excellent A
+// >=60 and < 75 Very Good B
+// >=50 and < 60 Good C
+// >=40 and < 49 Fair D
+// Fail F
+
+// var score = 75
+// if(score >= 75){
+//     console.log("Excellent")
+
+// }else if(score === 60){
+//     console.log("Very Good")
+
+// }else if(score === 50){
+//     console.log("Good")
+
+// }else{
+//     console.log("fail")
+// }
+
+
+// var score = 75
+// if(score >= 75){
+//     console.log("Excellent")
+
+// }else if(score >=60 && score <75){
+//     console.log("Very Good")
+
+// }else if(score >=50 && score < 60){
+//     console.log("Good")
+
+// }else if(score >=40 && score < 50){
+//     console.log("Fair")
+
+// }else{
+//     console.log("fail")
+
+// }
+
+
+
+// var age=18
+// if(age >= 18){
+//     console.log("you are permitted to drive a car")
+
+// }else{
+//     console.log("wait till you are 18" )
+// }
+
+// var day = 1;
+
+// switch(day){
+//     case 1:
+//         console.log("today is monday")
+//         break;
+//     case 2:
+//         console.log("today is tuesday")
+//         break;
+//     case 3:
+//         console.log("today is wednesday")
+//         break;
+//     case 4:
+//         console.log("today is thursday")
+//         break;
+//     case 5:
+//         console.log("today is friday")
+//         break;
+//     case 6:
+//         console.log("today is saturday")
+//         break;
+//     default:
+//         console.log("today is sunday")
+//         break; 
+// } 
+// for( var a = 0; a < 10; a++){
+//     console.log("I will never give up, I will be a programmer")
+// }
+
+// var age = 18;
+
+// age >= 18 ? console.log("you can drive") : console.log("wait till you are 18")
+
+// age >= 18 && console.log("you can drive")
+
+// confirm("do you want to delete your account?")
+
+// var x = 3.142 * 5 * 5
+// console.log(x)
+
+// function AOC(r){
+//     return console.log(3.142 * r * r)
+// }
+// AOC(8)
+
+// function HB(f){
+//     return console.log("the pumping rate is " + f + "bpm")
+// }
+// HB(100)
+
+// function displayAge(Y){
+//     const yy = prompt("enter your birth year")
+//     const age = 2023 - yy
+//     alert(age + "," + "wow you are getting older")
+// }
+
+// displayAge()
+
+// function calc(){
+//     var data = []
+
+//     for(var i = 0; i < 3; i++){
+//         var num = prompt("Enter number of your choice")
+//         data.push(num)
+//     }
+
+//     var x = data.join("+")
+//     var y = eval(x)
+
+//     if(y > 200){
+//         alert("number is high")
+//     }else{
+//         alert("number is below 200")
+//     }
+// }
+// calc()
+// function Dp(){
+//     var age = prompt("Enter your age");
+//     if( age >= 18){
+//         alert("you are permitted to drive");
+//     }else if (age < 18){
+//         alert("wait until you are 18");
+//     }
+// }
+
+// function handleclick(){
+//     alert("you just hold a key")
+// }
+
+// console.log(window)
+
+// function show(){
+//     alert("hello")
+// }
+
+// var ref1 = setTimeout(show,)
+
+// function stop(){
+//     clearTimeout(ref)
+// }
+
+// alert(window.screen.online)
+
+// function stop(){
+//     window.open("index.css", "_blank")
+// }
+
+
+// var ref = document.getElementById("info")
+// console.log(ref)
+// var ref = document.getElementById("info")
+// console.log(ref)
+
+// var ref = document.getElementsByTagName("input")
+// console.log(ref)
+// var ref = document.getElementsByName("fname")
+// console.log(ref)
+// var ref = document.querySelector("#info1")
+// console.log(ref)
+// var ref = document.querySelectorAll("input")
+// console.log(ref)
+// var a = Math.random() * 225
+// alert(a)
+// var age = prompt("Enter your age");
+// if(age >= 18){
+//     alert("you are allowed to drive");
+// }else if (age < 18 ){
+//     alert("wait till you are 18");
+//     }
+// for(var i = 2; i < 20; i++){
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
+// document.getElementById("btn")
+// document.querySelector("#btn")
+
+//var title = document.title
+// var body = document.body.children
+// console.log(body)
+// var body = document.body.children[0].children[1].innerText
+// var body = document.getElementById("test").innerText = "world"
+// console.log(body)
+
+// var button = document.body.children[1].innerText = "don't change color"
+// console.log(button)
+
+// document.getElementById("test").remove()
+// document.querySelector("#parent").append("<h1>coming from js</h1>")
+
+var element = document.createElement("h1") //<h1></h1>
+element.innerText = "coming from js" //<h1>coming from js</h1>
+var parent = document.getElementById("parent").append(element)
+
+var element2 = document.createElement("small")  //<small></small>
+element2.innerText = "this is a small text" //<small>this is a small text</small>
+small.setAttribute("href", "./shop.html") //<small href="./shop.html">this is a small text</small>
+
+var second = document.getElementById("second").append(element2)

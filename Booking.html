@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <script src="https://kit.fontawesome.com/317050764a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Booking.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pompiere&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a id="logo" href="./Home.html">Inki-J</a>
+
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contact us.html">Contact us</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a class="active" href="./Booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="Login-card-form">
+                <form class="Login">  
+                    <h2>Welcome back, please Login.</h2>
+                    <input id="login-email" placeholder="Enter your Email" type="email"><br>
+                    <input id="login-pwd" type="password" placeholder="password"><br>
+                    <input type="submit" onclick="Login()" value="Login" class="loginbtn" id="loginbtn">
+                    <p>OR</p>
+                    <p id="Continue">Continue with</p><i class="fab fa-google"></i> <i class="fab fa-microsoft"></i><br>
+                    <p id="signUp-link">Don't have an account?<a href="./SignUp.html">
+                    <p>Sign Up</p><i class="fa-solid fa-arrow-right"></i></a></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2025 Inki-J. All rights reserved.</p>
+        <p></p>
+        <div class="Socials">
+            <a href="https://www.instagram.com/theemmanueljohnson/"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Just-joe924"><i class="fab fa-github"></i></a>
+            <a href="mailto:theemmanueljohnson@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./Booking.js"></script>
+</body>
+</html>

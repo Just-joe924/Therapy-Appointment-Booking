@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./Dashboard.css">
+    <script src="https://kit.fontawesome.com/317050764a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Pompiere&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a id="logo" href="./Home.html">Inki-J</a>
+
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./Contact us.html">Contact us</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a class="active" href="./Booking.html">Booking</a></li>
+                <li><button onclick="logout()">Log out</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-section">
+            <h1>Book an Appointment</h1>
+
+            <div class="booking-grid">
+                <form id="booking-form" class="booking-form" aria-label="Book an appointment">
+                    <label>
+                        Full name
+                        <input type="text" id="fullName" required />
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" id="email" required />
+                    </label>
+
+                    <label>
+                        Phone
+                        <input type="tel" id="phone" />
+                    </label>
+
+                    <label>
+                        Service
+                        <select id="service" required></select>
+                    </label>
+
+                    <label>
+                        Therapist
+                        <select id="therapist" required></select>
+                    </label>
+
+                    <label>
+                        Date
+                        <input type="date" id="date" required />
+                    </label>
+
+                    <label>
+                        Time
+                        <input type="time" id="time" required />
+                    </label>
+
+                    <label>
+                        Notes
+                        <textarea id="notes" rows="3"></textarea>
+                    </label>
+
+                    <div class="form-actions">
+                        <button type="submit">Reserve</button>
+                        <button type="reset">Clear</button>
+                    </div>
+
+                    <div id="form-message" role="status" aria-live="polite"></div>
+                </form>
+
+                <aside class="booking-list">
+                    <h2>Your Appointments</h2>
+                    <div id="appointments-container">No appointments yet.</div>
+                </aside>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="">Disclaimer</a>
+            <a href="">Conditions of Access</a>
+            <a href="">Privacy and security statement</a>
+        </div>
+        <p>Copyright © 2025 Inki-J. All rights reserved.</p>
+        <div class="Socials">
+            <a href="https://www.instagram.com/theemmanueljohnson/"><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Just-joe924"><i class="fab fa-github"></i></a>
+            <a href="mailto:theemmanueljohnson@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+    <script type="module" src="Dashboard.js"></script>
+</body>
+</html>
